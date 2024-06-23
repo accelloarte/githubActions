@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: accel/gha:${{ github.sha }}
+          tags: accelaguilar/github-acctions:${{ github.sha }}
